@@ -1,0 +1,271 @@
+.checkbox-container{
+	margin-bottom: 2rem;
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+}
+
+.label{
+	font-size: 18px;
+	width: 95px;
+    height: 35px;
+	border: 1px solid grey;
+	transition: 0.5s;
+	border-radius: 5px;
+    margin-left: 8px;
+    margin-right: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.checkbox-container-productos input[type="checkbox"]{
+     visibility: hidden;
+}
+
+.checkbox-container-productos input[type="checkbox"]:checked ~ .label{
+    border-top: 1px solid green;
+	border-left: 1px solid green;
+	border-bottom: 1px solid green;
+	border-right: 1px solid green;
+	background: linear-gradient(45deg, green, green);
+	color: white;
+}
+.checkbox-container-semilla input[type="checkbox"]{
+     visibility: hidden;
+}
+
+.checkbox-container-semilla input[type="checkbox"]:checked ~ .label{
+    border-top: 1px solid green;
+	border-left: 1px solid green;
+	border-bottom: 1px solid green;
+	border-right: 1px solid green;
+	background: linear-gradient(45deg, green, green);
+	color: white;
+}
+.checkbox-container-fert1 input[type="checkbox"]:checked ~ .label{
+    border-top: 1px solid red;
+	border-left: 1px solid red;
+	border-bottom: 1px solid red;
+	border-right: 1px solid red;
+	background: linear-gradient(45deg, red, red);
+	color: white;
+}
+.checkbox-container-alfalfa input[type="checkbox"]:checked ~ .label{
+    border-top: 1px solid yellow;
+	border-left: 1px solid yellow;
+	border-bottom: 1px solid yellow;
+	border-right: 1px solid yellow;
+	background: linear-gradient(45deg, #888806, #888806);
+	color: white;
+}
+
+.checkbox-container-fert1 input[type="checkbox"]{
+     visibility: hidden;
+}
+.checkbox-container-fert2 input[type="checkbox"]{
+     visibility: hidden;
+}
+.checkbox-container-alfalfa input[type="checkbox"]{
+     visibility: hidden;
+}
+.checkbox-container-surco input[type="button"]{
+border-bottom-width: 15px;
+border-top-width: -45px;
+margin-top: 17px;
+border-left-width: -4px;
+}
+input[type="checkbox"]:checked ~ .label{
+	border-top: 1px solid #00be95;
+	border-left: 1px solid #00be95;
+	border-bottom: 1px solid #00aebe;
+	border-right: 1px solid #00aebe;
+	background: linear-gradient(45deg, #00aebe, #00be95);
+	color: white;
+}
+.checkbox-container-semilla input[type="checkbox"]{
+	visibility: hidden;
+}
+/* SELEC TODOS */
+.checkbox-container-todos input[type="checkbox"]{
+	visibility: hidden;
+}
+
+.checkbox-container-todos input[type="checkbox"]:checked ~ .label-checkbox-container-todos{
+   border-top: 1px solid green;
+   border-left: 1px solid green;
+   border-bottom: 1px solid green;
+   border-right: 1px solid green;
+   background: linear-gradient(45deg, green, green);
+   color: white;
+}
+
+.checkbox-container-todos{
+	margin-bottom: 2rem;
+	max-width: 2500px;
+	margin: 0 auto;
+	display: inline-block;
+}
+
+.label-checkbox-container-todos{
+	font-size: 16px;
+	font-weight: 10;
+	width: 200px;
+    height: 35px;
+	border: 1px solid grey;
+	transition: 0.5s;
+	border-radius: 5px;
+    margin-left: 8px;
+    margin-right: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+/*SELEC PARES */
+.checkbox-container-par input[type="checkbox"]{
+	visibility: hidden;
+}
+
+.checkbox-container-par input[type="checkbox"]:checked ~ .label-checkbox-container-par{
+   border-top: 1px solid #0d6efd;
+   border-left: 1px solid #0d6efd;
+   border-bottom: 1px solid #0d6efd;
+   border-right: 1px solid #0d6efd;
+   background: linear-gradient(45deg, #0d6efd, #0d6efd);
+   color: white;
+}
+
+.checkbox-container-par{
+	margin-bottom: 2rem;
+	max-width: 2500px;
+	margin: 0 auto;
+	display: inline-block;
+}
+
+.label-checkbox-container-par{
+	font-size: 16px;
+	font-weight: 10;
+	width: 200px;
+    height: 35px;
+	border: 1px solid grey;
+	transition: 0.5s;
+	border-radius: 5px;
+    margin-left: 8px;
+    margin-right: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+/* SELECT IMPARES */
+.checkbox-container-impar input[type="checkbox"]{
+	visibility: hidden;
+}
+
+.checkbox-container-impar input[type="checkbox"]:checked ~ .label-checkbox-container-impar{
+   border-top: 1px solid #e9c708;
+   border-left: 1px solid #dae908;
+   border-bottom: 1px solid #dae908;
+   border-right: 1px solid #dae908;
+   background: linear-gradient(45deg, #dae908, #dae908);
+   color: white;
+}
+
+.checkbox-container-impar{
+	margin-bottom: 2rem;
+	max-width: 2500px;
+	margin: 0 auto;
+	display: inline-block;
+}
+
+.label-checkbox-container-impar{
+	font-size: 16px;
+	font-weight: 10;
+	width: 200px;
+    height: 35px;
+	border: 1px solid grey;
+	transition: 0.5s;
+	border-radius: 5px;
+    margin-left: 8px;
+    margin-right: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+/* SELECT ROWS ACTUADOR */
+.checkbox-container-rows input[type="checkbox"]{
+	visibility: hidden;
+}
+
+.checkbox-container-rows input[type="checkbox"]:checked ~ .label-checkbox-container-rows{
+   border-top: 1px solid #28a745;
+   border-left: 1px solid #28a745;
+   border-bottom: 1px solid #28a745;
+   border-right: 1px solid #28a745;
+   background: linear-gradient(45deg, #28a745, #28a745);
+   color: white;
+}
+
+.checkbox-container-rows{
+	margin-bottom: 2rem;
+	max-width: 2500px;
+	margin: 0 auto;
+	display: inline-block;
+}
+
+.label-checkbox-container-rows{
+	font-size: 16px;
+	font-weight: 10;
+	width: 32px;
+    height: 35px;
+	border: 1px solid grey;
+	transition: 0.5s;
+	border-radius: 5px;
+    margin-left: 8px;
+    margin-right: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+/* RADIO BUTTON MONITOR MODEL*/
+.radio input[type="radio"]{
+    display: none;
+    visibility: hidden;
+}
+.radio label{
+    color:#28a745;
+    background: rgba (0,0,0,.1);
+    padding: 5px 15px 5px 51px;
+    display: inline-block;
+    position: relative;
+    font-size: 1em;
+    border-radius: 3px;
+    cursor: pointer; 
+}
+
+.radio label:hover{
+    background: rgba(0,116,217,0.1);
+}
+
+.radio label:before{
+    content: "";
+    width: 17px;
+    height: 17px;
+    display: none;
+    background: none;
+    border: 3px solid grey;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.radio input[type="radio"]:checked + label{
+padding : 5px 15px;
+background: #28a745;
+border-radius: 2px;
+color:#fff;
+}
+
